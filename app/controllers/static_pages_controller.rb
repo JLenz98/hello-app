@@ -3,6 +3,10 @@ class StaticPagesController < ApplicationController
   def hello
   end
 
-  def home    
+  def home
+  end
+
+  def roll_die
+    @number = [*1..6].sample
   end
 end
